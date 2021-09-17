@@ -1,4 +1,4 @@
 # Calculator
-My first mini project which is a calculator with HTML, CSS and vanilla JavaScript.
+My first HTML, CSS and vanilla JavaScript mini project which is a calculator.
 
 I like this neumorphism theme :)
