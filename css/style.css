@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #34393F, #1f1f20);
+}
+
+.container {
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#mainSec {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    width: 40%;
+    margin: 10vh auto;
+    background-image: linear-gradient(to top left, #1f1f20, #34393F);
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    padding: 20px;
+    box-shadow: 5px 10px 18px #1f1f1f;
+}
+
+.btn {
+    background-image: linear-gradient(to bottom right, #1f1f20, #34393F);
+    color: #ccc;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#displayScreen {
+    grid-column: 1 / 5;
+    background-image: linear-gradient(to bottom right, #1f1f20, #34393F);
+    border: none;
+    border-radius: 50px;
+    font-size: 35px;
+    color: #ccc;
+    padding: 0 20px;
+}
+
+#zero {
+    grid-column: 1 / 4;
+}
+
+.btn:focus,
+#displayScreen:focus {
+    outline: none;
+}
+
+#eql {
+    grid-row: 5 / 7;
+    grid-column: 4 / 5;
+}
